@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface JJViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *carImage;
+@property (strong, nonatomic) IBOutlet UILabel *colorLabel;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) NSMutableArray *luxuryCars;
+@property (nonatomic) int currentIndex;
+
+- (IBAction)nextCarButtonPressed:(UIBarButtonItem *)sender;
 
 @end

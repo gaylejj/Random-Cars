@@ -21,6 +21,11 @@
 		25B1CEC718BEB11400963590 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B1CEA918BEB11400963590 /* UIKit.framework */; };
 		25B1CECF18BEB11400963590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B1CECD18BEB11400963590 /* InfoPlist.strings */; };
 		25B1CED118BEB11400963590 /* Car_TypesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B1CED018BEB11400963590 /* Car_TypesTests.m */; };
+		25B1CEDC18BEB1BC00963590 /* LC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B1CEDB18BEB1BC00963590 /* LC.m */; };
+		25B1CEE118BEB31900963590 /* Maserati.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25B1CEDD18BEB31900963590 /* Maserati.jpeg */; };
+		25B1CEE218BEB31900963590 /* Mustang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B1CEDE18BEB31900963590 /* Mustang.jpg */; };
+		25B1CEE418BEB31900963590 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B1CEE018BEB31900963590 /* tesla.jpg */; };
+		25B1CEE618BEB98600963590 /* porsche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25B1CEE518BEB98600963590 /* porsche.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		25B1CECC18BEB11400963590 /* Car TypesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Car TypesTests-Info.plist"; sourceTree = "<group>"; };
 		25B1CECE18BEB11400963590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25B1CED018BEB11400963590 /* Car_TypesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car_TypesTests.m; sourceTree = "<group>"; };
+		25B1CEDA18BEB1BC00963590 /* LC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LC.h; sourceTree = "<group>"; };
+		25B1CEDB18BEB1BC00963590 /* LC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LC.m; sourceTree = "<group>"; };
+		25B1CEDD18BEB31900963590 /* Maserati.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maserati.jpeg; sourceTree = "<group>"; };
+		25B1CEDE18BEB31900963590 /* Mustang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mustang.jpg; sourceTree = "<group>"; };
+		25B1CEE018BEB31900963590 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
+		25B1CEE518BEB98600963590 /* porsche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = porsche.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +126,8 @@
 				25B1CEB418BEB11400963590 /* JJAppDelegate.h */,
 				25B1CEB518BEB11400963590 /* JJAppDelegate.m */,
 				25B1CEB718BEB11400963590 /* Main.storyboard */,
+				25B1CEDA18BEB1BC00963590 /* LC.h */,
+				25B1CEDB18BEB1BC00963590 /* LC.m */,
 				25B1CEBA18BEB11400963590 /* JJViewController.h */,
 				25B1CEBB18BEB11400963590 /* JJViewController.m */,
 				25B1CEBD18BEB11400963590 /* Images.xcassets */,
@@ -126,6 +139,10 @@
 		25B1CEAC18BEB11400963590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25B1CEE518BEB98600963590 /* porsche.jpg */,
+				25B1CEDD18BEB31900963590 /* Maserati.jpeg */,
+				25B1CEDE18BEB31900963590 /* Mustang.jpg */,
+				25B1CEE018BEB31900963590 /* tesla.jpg */,
 				25B1CEAD18BEB11400963590 /* Car Types-Info.plist */,
 				25B1CEAE18BEB11400963590 /* InfoPlist.strings */,
 				25B1CEB118BEB11400963590 /* main.m */,
@@ -229,9 +246,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B1CEE618BEB98600963590 /* porsche.jpg in Resources */,
+				25B1CEE418BEB31900963590 /* tesla.jpg in Resources */,
 				25B1CEBE18BEB11400963590 /* Images.xcassets in Resources */,
+				25B1CEE218BEB31900963590 /* Mustang.jpg in Resources */,
 				25B1CEB018BEB11400963590 /* InfoPlist.strings in Resources */,
 				25B1CEB918BEB11400963590 /* Main.storyboard in Resources */,
+				25B1CEE118BEB31900963590 /* Maserati.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 			files = (
 				25B1CEB618BEB11400963590 /* JJAppDelegate.m in Sources */,
 				25B1CEBC18BEB11400963590 /* JJViewController.m in Sources */,
+				25B1CEDC18BEB1BC00963590 /* LC.m in Sources */,
 				25B1CEB218BEB11400963590 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
